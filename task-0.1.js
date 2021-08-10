@@ -8,4 +8,4 @@ x = x + 3;
 y = y + x;
 
 console.log(x);
-console.log
+console.log(y);
