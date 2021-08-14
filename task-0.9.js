@@ -15,8 +15,8 @@ function printVowles(word) {
             vowlesFound.push(element);
         }
     }
-    return vowlesFound;
+    console.log("Vowles : " + vowlesFound);
 }
 
 //example
-console.log("Vowles : " + printVowles("YungIiu"));
+printVowles("YungIiu");
