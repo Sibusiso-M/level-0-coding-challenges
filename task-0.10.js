@@ -9,6 +9,6 @@ function commonLetters(string1, string2) {
             }
         }
     }
-    return "Common letters : " + matchingLetters;
+    console.log("Common letters : " + matchingLetters);
 }
-console.log(commonLetters("string1", "stttring21"));
+commonLetters("string1", "stttring21");
