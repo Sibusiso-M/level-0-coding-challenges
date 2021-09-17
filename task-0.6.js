@@ -1,8 +1,8 @@
 //bonus question attempt
 function getMaximum() {
-  var max = arguments[0];
+  let max = arguments[0];
 
-  for (index = 0; index < arguments.length; index++) {
+  for (let index = 0; index < arguments.length; index++) {
     if (max < arguments[index]) {
       max = arguments[index];
     }
