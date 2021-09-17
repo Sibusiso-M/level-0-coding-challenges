@@ -1,5 +1,5 @@
 function printVowles(word) {
-  var vowles = {
+  let vowles = {
     a: 0,
     e: 0,
     i: 0,
@@ -7,9 +7,9 @@ function printVowles(word) {
     u: 0,
   }; //keep binary status if vowel found or not.
 
-  const vowlesFound = [];
+  let vowlesFound = [];
   for (i = 0; i < word.length; i++) {
-    var element = word[i].toLowerCase();
+    let element = word[i].toLowerCase();
     if (vowles[element] == 0) {
       vowles[element]++;
       vowlesFound.push(element);
