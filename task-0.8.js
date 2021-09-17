@@ -11,3 +11,4 @@
 
  //Example
  console.log(numberToTime(133));
+ console.log(numberToTime(0));
