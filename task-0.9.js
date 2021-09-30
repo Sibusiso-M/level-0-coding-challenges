@@ -1,22 +1,14 @@
-function printVowles(word) {
-  let vowles = {
-    a: 0,
-    e: 0,
-    i: 0,
-    o: 0,
-    u: 0,
-  }; //keep binary status if vowel found or not.
+function printVowels2(word) {
+  let vowels = ["a", "e", "i", "o", "u"];
+  let vowelsFound = [];
 
-  let vowlesFound = [];
-  for (i = 0; i < word.length; i++) {
-    let element = word[i].toLowerCase();
-    if (vowles[element] == 0) {
-      vowles[element]++;
-      vowlesFound.push(element);
+  for (let i = 0; i < vowels.length; i++) {
+    if (word.toLowerCase().indexOf(vowels[i]) > -1) {
+      vowelsFound.push(vowels[i]);
     }
   }
-  console.log("Vowles : " + vowlesFound);
+  console.log("Vowels: " + vowelsFound);
 }
 
-//example
-printVowles("YungIiu");
+printVowels2("YungIiu");
+printVowels2("Umuzi");
