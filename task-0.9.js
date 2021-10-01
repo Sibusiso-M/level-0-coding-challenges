@@ -3,7 +3,7 @@ function printVowels(word) {
   let vowelsFound = [];
 
   for (let i = 0; i < vowels.length; i++) {
-    if (word.toLowerCase().indexOf(vowels[i]) > -1) {
+    if (word.toLowerCase().indexOf(vowels[i]) !== -1) {
       vowelsFound.push(vowels[i]);
     }
   }
@@ -12,3 +12,4 @@ function printVowels(word) {
 
 printVowels("YungIiu");
 printVowels("Umuzi");
+printVowels("Cheerios");
