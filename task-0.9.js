@@ -1,5 +1,5 @@
-function printVowels2(word) {
-  let vowels = ["a", "e", "i", "o", "u"];
+function printVowels(word) {
+  const vowels = ["a", "e", "i", "o", "u"];
   let vowelsFound = [];
 
   for (let i = 0; i < vowels.length; i++) {
@@ -10,5 +10,5 @@ function printVowels2(word) {
   console.log("Vowels: " + vowelsFound);
 }
 
-printVowels2("YungIiu");
-printVowels2("Umuzi");
+printVowels("YungIiu");
+printVowels("Umuzi");
