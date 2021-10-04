@@ -1,4 +1,3 @@
-//bonus question attempt
 function getMaximum() {
   let max = arguments[0];
 
